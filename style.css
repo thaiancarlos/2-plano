@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+.game-card {
+    background: #2b2b2b;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    box-sizing: border-box;
+}
+
+.game-card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+article {
+    background: #2b2b2b;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f8f4f4;
+    text-decoration: none;
+}nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    background-image: url(h1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover !important;
+}
