@@ -95,3 +95,14 @@ body{
     background-position: center;
     background-size: cover !important;
 }
+/* Estilos para telas grandes (desktops) */
+body {
+  font-size: 18px;
+}
+
+/* Media Query para telas de até 768px de largura (tablets e celulares) */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
